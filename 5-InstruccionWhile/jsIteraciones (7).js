@@ -20,8 +20,8 @@ function mostrar()
 
     contador++;
 
-  respuesta =prompt("¿Desea finalizar?").toLocaleLowerCase;
-  }while (respuesta != "si");
+  respuesta = confirm("¿Desea finalizar?");
+  }while (respuesta != true);
 
 
 document.getElementById('suma').value=acumulador;
