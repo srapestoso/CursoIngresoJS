@@ -7,8 +7,11 @@ function mostrar()
 
   switch(planeta){
 
-    case "tiera":
+    case "tierra":
     alert("Acá vivimos");
+    break;
+    case "mercurio":
+    alert("Acá hace más calor");
     break;
 
   }

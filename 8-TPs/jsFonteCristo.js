@@ -7,7 +7,22 @@ c.	Se pedirán un número positivo y se mostrará la cantidad de números divisi
 d.	Se pedirán un número positivo y se mostrará si el número es un número primo o no.
 e.	Se pedirán un número positivo y se mostrará la cantidad de números Primos desde el número ingresado hasta el cero.
 */
-function ComenzarIngreso () 
+var num;
+var contpar=0;
+var contimp=0;
+var contdiv=0;
+
+function ComenzarIngreso ()
 {
- 	
+
+}
+function NumerosPares()
+{
+  num = document.getElementById("numero").value;
+
+  if(num%2==0){
+  for(var i = 0; i < num ; i++){
+    alert(num);
+  }
+  }
 }
