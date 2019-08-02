@@ -4,8 +4,8 @@ function mostrar()
   var b;
   var r;
 
-  a = parseInt(prompt("Ingrese un valor"));
-  b = parseInt(prompt("Ingrese otro valor"));
+  a = prompt("Ingrese un valor");
+  b = prompt("Ingrese otro valor");
 
   if (a == b){
 
@@ -16,6 +16,8 @@ function mostrar()
     alert(r);
   }
   else if ( a < b){
+    a = parseInt(a);
+    b = parseInt(b);
     r = a + b;
     if ( r > 10){
       alert("La suma es " + r + " y superó el 10");
